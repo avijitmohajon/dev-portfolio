@@ -30,9 +30,7 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position:top left, bottom right;
-    background-size: contain, contain;
-
-   
+    
 }
 
 /* Nav styles */
@@ -63,7 +61,8 @@ nav li a{
 }
 /* banner style */
 .banner-content{
-   width: 550px; 
+   /* width: 550px;  */
+max-width: 580px;
 
 }
 .banner{
@@ -80,5 +79,5 @@ nav li a{
     font-weight: bold;
 }
 .banner-image{
-    width: 500px;
+    width: 580px;
 }
