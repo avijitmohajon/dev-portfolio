@@ -1,3 +1,5 @@
+
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -27,8 +29,10 @@
 .Developer{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: 22px 20px, bottom right;
-    /* background-size: contain, none; */
+    background-position:top left, bottom right;
+    background-size: contain, contain;
+
+   
 }
 
 /* Nav styles */
@@ -36,7 +40,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 200px;
     
 }
 .nav-title{
